@@ -39,6 +39,26 @@ public class TeamAssignement_HW2 {
         return min;
         
     }
+    public static int sumOfOdd(int[] array){
+    int sum = 0;
+    if(array.length>1)
+    for(int i = 1 ; i < array.length ; i++){
+     if(i%2 != 0){
+      sum += array[i] ;
+     }
+    }
+    return sum ;
+ }
+
+ public static int sumOfEven(int[] array){
+    int sum = 0;
+    for(int i = 0 ; i < array.length ; i++){
+     if(i%2==0){
+      sum += array [i] ;
+     }
+    }
+    return sum ;
+ }
 
     public static void main(String[] args) {
         
