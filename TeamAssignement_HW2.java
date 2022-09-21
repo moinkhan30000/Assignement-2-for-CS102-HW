@@ -82,6 +82,11 @@ public class TeamAssignement_HW2 {
     
 }
     public static void main(String[] args) {
+        int arraySize;
+        System.out.print("Enter the array size: ");
+        Scanner input = new Scanner(System.in);
+        arraySize = input.nextInt();
+        System.out.println(Arrays.toString(createAndFill(arraySize)));
         System.out.print("Menu: \n1-Find the differences from the average as an array \n2-Find the sum of the even indexes of the array \n3-Find the sum of the odd indexes of the array \n4-Find the minimum of the array \n5-Find the maximum of the array \n6-Quit \nEnter choice: ");
     }
 }
