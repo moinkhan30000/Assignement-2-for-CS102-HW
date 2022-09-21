@@ -18,11 +18,7 @@ public class TeamAssignement_HW2 {
         }
         return s2;
     }
-    public static void main(String[] args) {
-        int q[] = {2, 6, 1, 3, 5};
-        double r[] = averageOfArray(q);
-        System.out.println(Arrays.toString(r));;
-    }
+    
 }
     public static void main(String[] args) {
         
