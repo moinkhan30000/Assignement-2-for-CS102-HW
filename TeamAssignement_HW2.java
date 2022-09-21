@@ -107,6 +107,6 @@ public class TeamAssignement_HW2 {
             System.out.print("Menu: \n1-Find the differences from the average as an array \n2-Find the sum of the even indexes of the array \n3-Find the sum of the odd indexes of the array \n4-Find the minimum of the array \n5-Find the maximum of the array \n6-Quit \nEnter choice: ");
             choice = input.nextInt();
         } 
-        scan.close();
+        input.close();
     }
 }
