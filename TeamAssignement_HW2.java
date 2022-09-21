@@ -101,7 +101,7 @@ public class TeamAssignement_HW2 {
             System.out.println(sumOfOdd(array));
             }else if(choice==4){
             System.out.println(findMin(array));
-            }else{
+            }else if(choice==5){
             System.out.println(findMax(array));
             }
             System.out.print("Menu: \n1-Find the differences from the average as an array \n2-Find the sum of the even indexes of the array \n3-Find the sum of the odd indexes of the array \n4-Find the minimum of the array \n5-Find the maximum of the array \n6-Quit \nEnter choice: ");
