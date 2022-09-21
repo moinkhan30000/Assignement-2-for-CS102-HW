@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class TeamAssignement_HW2 {
     
     public static int[] createAndFill(int arraySize){
@@ -80,7 +83,6 @@ public class TeamAssignement_HW2 {
         return s2;
     }
     
-}
     public static void main(String[] args) {
         int arraySize;
         System.out.print("Enter the array size: ");
