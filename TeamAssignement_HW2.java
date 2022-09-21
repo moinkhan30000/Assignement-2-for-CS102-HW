@@ -91,5 +91,22 @@ public class TeamAssignement_HW2 {
         int[] array = createAndFill(arraySize);
         System.out.println(Arrays.toString(array));
         System.out.print("Menu: \n1-Find the differences from the average as an array \n2-Find the sum of the even indexes of the array \n3-Find the sum of the odd indexes of the array \n4-Find the minimum of the array \n5-Find the maximum of the array \n6-Quit \nEnter choice: ");
+        int choice = input.nextInt();
+        while(choice!=6){
+            if(choice==1){
+            System.out.println(Arrays.toString(differenceOfAverageOfArray(array)));
+            }else if (choice==2){
+            System.out.println(sumOfEven(array));
+            }else if(choice==3){
+            System.out.println(sumOfOdd(array));
+            }else if(choice==4){
+            System.out.println(findMin(array));
+            }else{
+            System.out.println(findMax(array));
+            }
+            System.out.print("Menu: \n1-Find the differences from the average as an array \n2-Find the sum of the even indexes of the array \n3-Find the sum of the odd indexes of the array \n4-Find the minimum of the array \n5-Find the maximum of the array \n6-Quit \nEnter choice: ");
+            choice = input.nextInt();
+        } 
+        scan.close();
     }
 }
