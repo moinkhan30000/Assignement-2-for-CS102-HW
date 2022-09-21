@@ -1,5 +1,4 @@
 public class TeamAssignement_HW2 {
-    public class Array{
     
     public static int[] createAndFill(int arraySize){
         
@@ -41,7 +40,6 @@ public class TeamAssignement_HW2 {
         
     }
 
-}
     public static void main(String[] args) {
         
     }
